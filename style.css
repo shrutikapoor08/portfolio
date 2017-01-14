@@ -1,0 +1,60 @@
+.heading {
+  font-size: 4em;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-weight: lighter;
+}
+
+section#header {
+  color: #fff;
+  text-align: center;
+}
+section#header #banner {
+  background-color: #000;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section#header #banner h1 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 6em;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+section#header #banner h3 {
+  font-weight: lighter;
+}
+section#header #banner .profile-picture {
+  height: 350px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+section#header #banner .profile-picture.round-border {
+  border-radius: 50%;
+}
+
+section#portfolio {
+  padding-bottom: 40px;
+}
+section#portfolio .portfolio-image {
+  overflow: hidden;
+  height: 360px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+section#portfolio .portfolio-image img {
+  width: 100%;
+  position: relative;
+}
+
+section#social {
+  text-align: center;
+  color: black;
+  background: #F5F6F7;
+  padding-bottom: 80px;
+}
+section#social .heading {
+  margin-top: 40px;
+}
