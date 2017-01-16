@@ -58,3 +58,10 @@ section#social {
 section#social .heading {
   margin-top: 40px;
 }
+
+section#social .social-icons img{
+  height: 65px;
+}
+section#social .social-icons.small img{
+  height: 35px;
+}
