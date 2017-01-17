@@ -42,12 +42,16 @@ section#portfolio .portfolio-image {
   overflow: hidden;
   height: 360px;
   margin: 0 auto;
-  margin-bottom: 30px;
 }
 section#portfolio .portfolio-image img {
-  width: 100%;
-  position: relative;
+    position: absolute;
+    height: auto;
+    width: 85px;
+    top: 130px;
+    left: 42%;
 }
+
+
 
 section#social {
   text-align: center;
