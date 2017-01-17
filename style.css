@@ -1,3 +1,11 @@
+
+/*Overwriting bootstrap CSS*/
+.container-fluid {
+  padding: 0;
+}
+section {
+  overflow: hidden;
+}
 .heading {
   font-size: 4em;
   margin-top: 100px;
@@ -35,9 +43,6 @@ section#header #banner .profile-picture.round-border {
   border-radius: 50%;
 }
 
-section#portfolio {
-  padding-bottom: 40px;
-}
 section#portfolio .portfolio-image {
   overflow: hidden;
   height: 360px;
@@ -50,8 +55,6 @@ section#portfolio .portfolio-image img {
     top: 130px;
     left: 42%;
 }
-
-
 
 section#social {
   text-align: center;
@@ -70,4 +73,42 @@ section#social .social-icons img{
 section#social .social-icons.small img{
   height: 35px;
   margin-left: 15px;
+}
+
+section#footer{
+  background: black;
+  padding: 40px 0;
+  color: white;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+
+}
+
+section#footer h3{
+  font-weight: 200;
+}
+
+section#footer p{
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+section#footer .about{
+  padding: 0px 20px;
+    display: none;
+}
+
+section#footer .contact{
+  padding-left: 5%;
+    display: none;
+
+}
+
+section#footer .copyright {
+  display: block;
+  text-align: center;
+    color: white;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  margin-top: 30px;
+
 }
