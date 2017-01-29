@@ -35,7 +35,16 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li> <a href="#header"> Home </a> </li>
+                <li> <a href="#portfolio"> Portfolio </a> </li>
+                <li> <a href="#social"> Contact </a> </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container-fluid">
         <section id="header">
             <div id="banner">
@@ -49,8 +58,6 @@
             </div>
         </section>
         <section id="portfolio">
-            <!--             <h2 class="heading"> PORTFOLIO </h2>
- -->
             <div class="row">
                 <div class="portfolio-image hover col-md-4" style="background: #23abea;"> <img src="images/icons/js.png" alt="Javascript"> </div>
                 <div class="portfolio-image col-md-4" style="background: white;"> <img src="images/icons/css.png" alt="CSS"> </div>
@@ -74,8 +81,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 about">
-                        <h3> Shruti Kapoor </h3>
-                        <p> Front-end Web Developer with full stack development experience. Software Engineering alum from University of British Columbia, Vancouver. Love to travel and try new food. Vegetarian since March 2015. Former Miss World Canada delegate. </p>
+                        <h3> About me </h3>
+                        <p> Front-end Web Developer currently working at Telus Digital. University of British Columbia alum. Miss World Canada 2015 Delegate. Love to travel and try new food. Will code for coffee. </p>
                     </div>
                     <div class="col-md-8 contact">
                         <h3> Drop me a note </h3>
@@ -90,6 +97,10 @@
             </div>
         </section>
     </div>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

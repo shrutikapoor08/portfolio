@@ -4,6 +4,30 @@
     padding: 0;
 }
 
+.navbar {
+    background-color: #000000;
+}
+.navbar-nav a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+.navbar-nav a:hover{
+    color: #23abea;
+    background: inherit;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.navbar-nav li.active a{
+    color: #23abea;
+    background: inherit;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
 section {
     overflow: hidden;
 }
@@ -103,7 +127,7 @@ section#footer p {
 
 section#footer .about {
     padding: 0px 20px;
-    display: none;
+
 }
 
 section#footer .contact {
