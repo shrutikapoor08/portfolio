@@ -32,13 +32,21 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
-            <ul class="nav navbar-nav">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-nav" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+            <ul class="nav navbar-nav collapse navbar-collapse">
                 <li> <a href="#header"> Home </a> </li>
                 <li> <a href="#portfolio"> Portfolio </a> </li>
                 <li> <a href="#social"> Contact </a> </li>
@@ -64,7 +72,7 @@
                 <div class="portfolio-image col-md-4" style="background: #23abea;"> <img src="images/icons/html.png" alt="HTML"> </div>
                 <div class="portfolio-image col-md-4" style="background: white;"> <img src="images/icons/drupal.png" alt="Drupal"> </div>
                 <div class="portfolio-image hover col-md-4" style="background: #23abea;"> <img src="images/icons/angularjs.png" alt="AngularJS"> </div>
-                <div class="portfolio-image col-md-4" style="background: white;"> <img src="images/icons/wordpress.png" style="width: 150px;" alt="WordPress"> </div>
+                <div class="portfolio-image col-md-4" style="background: white;"> <img src="images/icons/wordpress.png" style="width: 150px; left: 30%;" alt="WordPress"> </div>
             </div>
         </section>
         <section id="social">

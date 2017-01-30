@@ -28,6 +28,10 @@
     font-weight: lighter;
 
 }
+
+.navbar-toggle .icon-bar {
+    background: white;
+}
 section {
     overflow: hidden;
 }
@@ -143,3 +147,16 @@ section#footer .copyright {
     font-size: 12px;
     margin-top: 30px;
 }
+
+@media (max-width: 768px) { 
+    section#header #banner {
+        padding: 40px 0 0 0;
+    }
+section#header #banner .profile-picture {
+    height: 200px;
+}
+section#header #banner h1{
+    font-size: 36px;
+}
+}
+
