@@ -89,7 +89,7 @@ section#portfolio .portfolio-image img {
     height: auto;
     width: 85px;
     top: 130px;
-    left: 42%;
+    left: 37%;
 }
 
 section#social {
@@ -99,8 +99,13 @@ section#social {
     padding-bottom: 80px;
 }
 
+section#social h3{
+    font-weight: 400;
+}
+
 section#social .heading {
     margin-top: 40px;
+    font-weight: lighter;
 }
 
 section#social .social-icons img {
@@ -118,6 +123,7 @@ section#footer {
     padding: 40px 0;
     color: white;
     font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    text-align: center;
 }
 
 section#footer h3 {
@@ -132,6 +138,8 @@ section#footer p {
 section#footer .about {
     padding: 0px 20px;
     font-weight: 100;
+    max-width: 70%;
+    margin: 0 auto;
 
 }
 
@@ -159,5 +167,17 @@ section#header #banner .profile-picture {
 section#header #banner h1{
     font-size: 36px;
 }
+
 }
 
+section#portfolio .wordpress {
+    @media (max-width: 768px) { 
+        left: 32%;
+    }
+    @media (min-width: 769px) { 
+        left: 38%;
+    }
+    @media (min-width: 1025px) { 
+        left: 30%;
+    }
+}
